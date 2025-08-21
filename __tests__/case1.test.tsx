@@ -12,5 +12,5 @@ describe('Page', () => {
     render(<Page/>)
     expect(Banner).toHaveBeenCalledTimes(1)
     expect(Card).toHaveBeenCalledTimes(1)
-  })
+  })   
 })
